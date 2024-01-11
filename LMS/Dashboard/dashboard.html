@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <script src="dashboard.js" defer></script>
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <nav class="sidebar">
+        <h1>Dashboard</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <div class="main-content">
+        <div class="profile-circle" onclick="toggleDropdown()">
+          <img src="default-profile.jpg" alt="Profile" />
+          <!-- Profile image added here -->
+        </div>
+        <div class="dropdown-menu" id="dropdownMenu">
+          <a href="#">Your Profile</a>
+          <a href="#">Logout</a>
+        </div>
+        <h2>Welcome to Your Dashboard</h2>
+        <!-- Subject Buttons -->
+        <div class="subjects-container">
+          <a
+            href="link-to-maths"
+            class="subject-button"
+            style="background-image: url('maths.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Math</span>
+          </a>
+          <a
+            href="link-to-science"
+            class="subject-button"
+            style="background-image: url('science.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Science</span>
+          </a>
+          <a
+            href="link-to-english"
+            class="subject-button"
+            style="background-image: url('english.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">English</span>
+          </a>
+          <a
+            href="link-to-sanskrit"
+            class="subject-button"
+            style="background-image: url('sanskrit.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Sanskrit</span>
+          </a>
+          <a
+            href="link-to-hindi"
+            class="subject-button"
+            style="background-image: url('hindi.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Hindi</span>
+          </a>
+          <a
+            href="link-to-dictionary"
+            class="subject-button"
+            style="background-image: url('dictionary.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Dictionary</span>
+          </a>
+          <a
+            href="link-to-fiction"
+            class="subject-button"
+            style="background-image: url('fiction.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Fiction</span>
+          </a>
+          <a
+            href="link-to-non-fiction"
+            class="subject-button"
+            style="background-image: url('non-fiction.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Non-Fiction</span>
+          </a>
+          <a
+            href="link-to-academic"
+            class="subject-button"
+            style="background-image: url('academic.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Academic</span>
+          </a>
+          <a
+            href="link-to-arts"
+            class="subject-button"
+            style="background-image: url('arts.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Arts</span>
+          </a>
+          <a
+            href="link-to-health"
+            class="subject-button"
+            style="background-image: url('health.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Health</span>
+          </a>
+
+          <a
+            href="link-to-philosophy"
+            class="subject-button"
+            style="background-image: url('philosophy.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Philosophy</span>
+          </a>
+          <a
+            href="link-to-children"
+            class="subject-button"
+            style="background-image: url('children.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Children's</span>
+          </a>
+          <a
+            href="link-to-travel"
+            class="subject-button"
+            style="background-image: url('travel.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Travel</span>
+          </a>
+
+          <a
+            href="link-to-geography"
+            class="subject-button"
+            style="background-image: url('geography.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">Geography</span>
+          </a>
+          <a
+            href="link-to-history"
+            class="subject-button"
+            style="background-image: url('history.png')"
+            onclick="applyAdvancedAnimation(this)"
+          >
+            <span class="subject-title">History</span>
+          </a>
+          <!-- Add more subjects as needed -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
