@@ -1,4 +1,5 @@
 body, html {
+    background-image: url('dashboard-background.png');
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -29,9 +30,25 @@ ul {
     color: #fff;
 }
 
+button {
+    border-radius: 50%; /* Keeps the button round */
+    /* other styling */
+}
+
+button:hover {
+    border-radius: 50%; /* Keeps the button round on hover */
+    /* other styling for hover */
+}
+
+
 .sidebar ul {
-    list-style: none;
-    padding: 0;
+    background-color: burlywood;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 .sidebar ul li a {
@@ -44,7 +61,7 @@ ul {
 }
 
 .sidebar ul li a:hover {
-    background-color: #444;
+    background-color: #0026ff;
 }
 
 .main-content {
@@ -115,12 +132,13 @@ ul {
 }
 
 .subject-button {
+    transition: 0.3sec ease;
     flex: 0 0 auto;
     width: 200px;
     height: 200px;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 10%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -128,11 +146,13 @@ ul {
     cursor: pointer; /* Changes the mouse pointer to indicate a clickable area */
 }
 .subject-button-clicked{
+    border-radius: 10%;
     transform: scale(0.9);
     transition: transform 0.4s;
 }
 
 .subject-button:hover {
+    border-radius: 10%;
     /* Optional: Add any hover effect you desire */
     opacity: 0.8; /* Example hover effect */
 }

@@ -27,7 +27,9 @@ function addClickAnimation(event) {
     }, 200); // 200ms = duration of the animation
 }
 
-function applyAdvancedAnimation(element) {
-    element.classList.add('advanced-animation');
-}
+document.querySelector('.profile-pic').addEventListener('click', function() {
+    var dropdown = document.querySelector('.dropdown-menu');
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+});
+
 

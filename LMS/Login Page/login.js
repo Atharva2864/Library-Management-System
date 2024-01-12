@@ -8,3 +8,12 @@ function handleLogin() {
 
 // Add a click event listener to the "Login" button
 document.getElementById('login-button').addEventListener('click', handleLogin);
+
+
+function showLoader() {
+  document.getElementById('loadingSymbol').style.display = 'block';
+}
+
+function hideLoader() {
+  document.getElementById('loadingSymbol').style.display = 'none';
+}
